@@ -17,4 +17,11 @@ jobs:
           python-version: "3.12"
 
       - name: Run tests
-        run: python test_calculator.py
+        run: |
+          python --version
+          python test_calculator.py
+          echo "Madin's first CI pipeline!"
+
+
+
+        
